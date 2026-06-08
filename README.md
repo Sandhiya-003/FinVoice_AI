@@ -2,14 +2,16 @@
 
 💳 Voice-First Banking for Inclusive Financial Access
 
-<p align="center">"React" (https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge&logo=react)
-"FastAPI" (https://img.shields.io/badge/FastAPI-Backend-009688?style=for-the-badge&logo=fastapi)
-"PostgreSQL" (https://img.shields.io/badge/PostgreSQL-Database-336791?style=for-the-badge&logo=postgresql)
-"Gemini" (https://img.shields.io/badge/Gemini-AI-blue?style=for-the-badge)
-"Whisper" (https://img.shields.io/badge/Whisper-Speech%20Recognition-orange?style=for-the-badge)
-"TailwindCSS" (https://img.shields.io/badge/TailwindCSS-UI-38BDF8?style=for-the-badge&logo=tailwindcss)
+<p align="center">
+[![React](https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge&logo=react)](https://react.dev)
+[![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-336791?style=for-the-badge&logo=postgresql)](https://www.postgresql.org)
+[![Gemini](https://img.shields.io/badge/Gemini-AI-blue?style=for-the-badge)](https://ai.google.dev)
+[![Whisper](https://img.shields.io/badge/Whisper-Speech%20Recognition-orange?style=for-the-badge)](https://openai.com/research/whisper)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-UI-38BDF8?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com)
+</p>
 
-</p>---
+---
 
 🌟 Project Overview
 
@@ -206,15 +208,16 @@ User Receives Response
 
 🛠️ Tech Stack
 
-Layer| Technology
-Frontend| React.js
-Styling| Tailwind CSS
-Backend| FastAPI
-Database| PostgreSQL
-AI Model| Gemini 1.5 Flash
-Speech Recognition| Whisper
-Text-to-Speech| Google TTS
-Authentication| Biometric Verification
+| Layer | Technology |
+|-------|-----------|
+| Frontend | React.js |
+| Styling | Tailwind CSS |
+| Backend | FastAPI |
+| Database | PostgreSQL |
+| AI Model | Gemini 1.5 Flash |
+| Speech Recognition | Whisper |
+| Text-to-Speech | Google TTS |
+| Authentication | Biometric Verification |
 
 ---
 
