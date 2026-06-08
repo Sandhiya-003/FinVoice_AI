@@ -1,0 +1,72 @@
++------------------+
+|      USER        |
++------------------+
+| user_id (PK)     |
+| full_name        |
+| phone_number     |
+| preferred_lang   |
+| biometric_status |
+| created_at       |
++------------------+
+          |
+          | 1
+          |
+          | N
++------------------+
+|     ACCOUNT      |
++------------------+
+| account_id (PK)  |
+| user_id (FK)     |
+| account_number   |
+| account_type     |
+| balance          |
+| bank_name        |
+| ifsc_code        |
++------------------+
+          |
+     +----+----+
+     |         |
+     |         |
+     N         N
+     |         |
++---------+  +---------+
+|TXN      |  | LOAN    |
++---------+  +---------+
+|txn_id   |  |loan_id  |
+|acct_id  |  |acct_id  |
+|amount   |  |amount   |
+|type     |  |emi      |
+|status   |  |status   |
+|time     |  |tenure   |
++---------+  +---------+
+
+USER
+ |
+ | 1
+ |
+ | N
++------------------+
+|  VOICE_SESSION   |
++------------------+
+| session_id (PK)  |
+| user_id (FK)     |
+| transcript       |
+| language         |
+| detected_intent  |
+| timestamp        |
++------------------+
+
+ACCOUNT
+ |
+ | 1
+ |
+ | N
++------------------+
+| BENEFICIARY      |
++------------------+
+| beneficiary_id   |
+| account_id (FK)  |
+| beneficiary_name |
+| account_ref      |
+| added_on         |
++------------------+
