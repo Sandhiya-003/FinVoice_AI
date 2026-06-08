@@ -245,14 +245,6 @@ Voice Confirmation
 
 ---
 
-👨‍💻 Developed By
-
-FinVoice AI Team
-
-Building Accessible Banking Through Voice Technology
-
----
-
 ⭐ Project Vision
 
 "Making Digital Banking Accessible Through Voice, AI, and Inclusive Design."
