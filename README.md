@@ -1,8 +1,10 @@
-                                                                     🎙️ FinVoice AI
+<div align="center">
+  
+# 🎙️ FinVoice AI
 
-                                                     💳 Voice-First Banking for Inclusive Financial Access
+### 💳 Voice-First Banking for Inclusive Financial Access
 
----
+</div>
 
 🌟 Project Overview
 
@@ -85,7 +87,7 @@ FinVoice AI solves this problem through:
 ---
 
 🏗️ System Architecture
-
+```
 User Voice Input
         │
         ▼
@@ -114,7 +116,7 @@ Google Text-to-Speech
         │
         ▼
 Voice Response
-
+```
 ---
 
 🗄️ Database Modules
@@ -170,7 +172,7 @@ Stores:
 ---
 
 🧠 AI Workflow
-
+```
 User Speaks
       │
       ▼
@@ -194,7 +196,7 @@ Google TTS
       │
       ▼
 User Receives Response
-
+```
 ---
 
 🛠️ Tech Stack
@@ -213,7 +215,7 @@ User Receives Response
 ---
 
 🎨 User Flow
-
+```
 Open Application
        │
        ▼
@@ -230,7 +232,7 @@ Banking Operation
        │
        ▼
 Voice Confirmation
-
+```
 ---
 
 📈 Future Enhancements
